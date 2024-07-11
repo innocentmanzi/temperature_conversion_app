@@ -6,7 +6,7 @@ import 'package:temperature_conversion_app/main.dart';
 void main() {
   testWidgets('Temperature conversion test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(TemperatureConverterApp());
+    await tester.pumpWidget(const TemperatureConverterApp());
 
     // Verify that the initial state is correct.
     expect(find.text('Converted Value: --'), findsOneWidget);
