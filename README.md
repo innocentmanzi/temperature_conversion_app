@@ -4,7 +4,7 @@
 
 # Widgets Used
 
-1. Main Function:  Runs the app and sets TemperatureConverterApp as the root widget.
+1.  **Main function:** Runs the app and sets TemperatureConverterApp as the root widget.
 2. TemperatureConverterApp:  Sets up the MaterialApp with a title, theme, and the TemperatureConverter as the home screen.
 3. TemperatureConverter:  A stateful widget that manages the state of the temperature conversion functionality.
 4. _TemperatureConverterState:  Handles the logic and UI for temperature conversion, including taking user input, performing conversions, and maintaining a history of 
