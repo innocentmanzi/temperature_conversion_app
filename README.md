@@ -25,7 +25,7 @@
 Please follow the general Contribution Guidelines if you want to contribute to this project.
 
 # License
-This project is licensed under the M.I.T. License - see the [LICENSE] (https://opensource.org/license/mit) file for more details.
+This project is licensed under the M.I.T. License - see the [LICENSE](https://opensource.org/license/mit) file for more details.
 
 # Contact
 For questions or support, please get in touch with us at temperatureconversion@gmail.com
