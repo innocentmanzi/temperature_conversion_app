@@ -34,5 +34,5 @@ For questions or support, please get in touch with us at temperatureconversion@g
 Special thanks to Samiratu Ntohsi and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project. This project is a testament to my collective skills and knowledge in the field.
 
 # Author
- 1. [Innocent MANZI] (https://github.com/innocentmanzi)
+ 1. [Innocent MANZI](https://github.com/innocentmanzi)
 
