@@ -1,5 +1,7 @@
 # Temperature Conversion App
 
+The Temperature Conversion app is a user-friendly tool that converts temperatures between Celsius and Fahrenheit. Users can input a temperature value, select the units for conversion, and instantly see the converted result. The app maintains a history of all conversions performed during the session and includes a clear button to reset the history. With its intuitive interface and straightforward functionality, this app makes temperature conversion quick and easy.
+
 # Features
 
 1. **Temperature Input:** Users can enter a temperature value using a TextField widget, and TextField accepts numerical input and provides a label "Enter temperature" with an outlined border for better user experience.
@@ -11,6 +13,11 @@
 7. **Responsive Design:** The use of SingleChildScrollView ensures that the content is scrollable if it exceeds the screen height, providing a good user experience on smaller screens.
 
 # Usage
+1. **Entering a Temperature:** In the text field labeled "Enter temperature," type the temperature value you want to convert. Ensure you input a valid number.
+2. **Selecting Units:** Below the text field, there are two sections: "Units From" and "Units To."
+3. **Converting the Temperature:** After entering the temperature and selecting the units, press the "Convert" button.
+4. **Viewing Conversion History:** Each time you perform a conversion, the app logs the conversion in a history list displayed below the converted value.
+5. **Clearing Conversion History:** Pressing the "Clear" button will remove all previous conversion records from the history and reset the displayed converted value.
 
 # Widgets Used
 
