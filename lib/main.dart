@@ -48,15 +48,15 @@ class _TemperatureConverterState extends State<TemperatureConverter> {
     if (_unitFrom == 'Celsius' && _unitTo == 'Fahrenheit') {
       convertedValue = (inputValue * 9 / 5) + 32;
       conversionString =
-          'C to F: $inputValue => ${convertedValue.toStringAsFixed(2)}';
+          'C to F: $inputValue => ${convertedValue.toStringAsFixed(1)}';
     } else if (_unitFrom == 'Fahrenheit' && _unitTo == 'Celsius') {
       convertedValue = (inputValue - 32) * 5 / 9;
       conversionString =
-          'F to C: $inputValue => ${convertedValue.toStringAsFixed(2)}';
+          'F to C: $inputValue => ${convertedValue.toStringAsFixed(1)}';
     } else {
       convertedValue = inputValue;
       conversionString =
-          '$inputValue $_unitFrom is equal to ${convertedValue.toStringAsFixed(2)} $_unitTo';
+          '$inputValue $_unitFrom is equal to ${convertedValue.toStringAsFixed(1)} $_unitTo';
     }
 
     setState(() {
@@ -178,7 +178,7 @@ class _TemperatureConverterState extends State<TemperatureConverter> {
                   color: Colors.white,
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'Converted Value: ${_convertedValue!.toStringAsFixed(2)}',
+                    'Converted Value: ${_convertedValue!.toStringAsFixed(1)}',
                     style: const TextStyle(fontSize: 20),
                   ),
                 ),
@@ -200,3 +200,4 @@ class _TemperatureConverterState extends State<TemperatureConverter> {
     );
   }
 }
+
